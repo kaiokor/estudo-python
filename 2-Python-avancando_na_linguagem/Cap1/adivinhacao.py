@@ -32,8 +32,3 @@ def jogar():
 
 if(__name__ == "__main__"):
     jogar()
-
-# quando rodamos o arquivo diretamente (não por meio de otro arquivo por meio do import por exemplo)
-# o pyhton internamente cria e preenche uma variável
-# e por meio dessa variavel podemos saber se o arquivo foi rodado diretamente ou por meio de import
-# essa variável é o __name__

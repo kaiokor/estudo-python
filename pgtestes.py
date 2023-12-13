@@ -1,1 +1,4 @@
-# cd estudo-python/Python-comecando_com_a_linguagem
+def diga_oi():
+	print('oi :D')
+	
+diga_oi()

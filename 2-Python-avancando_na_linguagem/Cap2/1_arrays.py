@@ -60,6 +60,12 @@ if 2 in valores:
 valores = ["a","b","c","d","e"]
 del(valores[0])
 
+# SORTED
+# organiza uma array
+num = [1,4,6,2,9,5,3]
+num_organizado = sorted(num)
+print(num_organizado)
+# [1, 2, 3, 4, 5, 6, 9]
 
 # VARIAVEL DE INDICE
 # é uma variável que armazena a posição de um elemento me uma coleção de dados

@@ -5,9 +5,10 @@ num_secreto = 43
 
 resp = int(input('Digite um número: '))
 
-acertou = num_secreto == resp
 maior = num_secreto < resp
 menor = num_secreto > resp
+acertou = num_secreto == resp
+
 # essa variável é do tipo bool
 
 if (acertou):
