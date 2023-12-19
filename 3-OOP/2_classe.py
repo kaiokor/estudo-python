@@ -9,10 +9,10 @@ class Cont:
 # CRIANDO UM OBJETO
 print(Cont())
 # <__main__.Conta object at 0x0000020BB48FE550>
-                            # esse é o endereço em memória onde esse onjeto foi criado
+                            # esse é o endereço em memória onde esse objeto foi criado
 
 # cont é uma instância da classe Cont
-# essa variável conrt nós chamamos de referência, ela vai guardar o nosso endereço de memória do objeto
+# essa variável cont nós chamamos de referência, ela vai guardar o nosso endereço de memória do objeto
 # essa variável sabem onde se encontra o objeto
 cont = Cont()
 print(cont)
@@ -33,7 +33,7 @@ class Conta:
     # é apenas uma boa prática adicionar o construtor __init__ em classes, isso não é obrigatório no python
     # caso criar sem ela, a instância não vai dar erro
     # sem o construtor nós precisaríamos definir os atributos depois de instanciar, teríamos o trabalho de descobrir quais atributos definir.
-    def __init__(self,numero,titular,saldo,limite): # self é a referência do local que guardamos nosso objeto
+    def __init__(self,numero,titular,saldo,limite): # self é a referência do enredeço que guardamos nosso objeto
         print('Contruindo objeto...{}'.format(self))
         # Contruindo objeto...<__main__.Conta object at 0x00000299B707EC50>
 
@@ -87,7 +87,7 @@ conta1.extrato()
 # usuario = cria_conta(123,"lucas",1200,1500)
 # usuario = cria_conta(123,"marcela",1200,1500)
 # não conseguimos mais encontrar o primeiro objeto ('nome': lucas), ele é abandonado
-# dentro da máquina vitual, da execução do pyhton python, um processo que procura objetos que não estão mais sendo utilizados
+# dentro da máquina vitual, da execução do pyhton, um processo que procura objetos que não estão mais sendo utilizados
 # esse é o garbage colector (coletor de lixo), ele apaga objetos abandonados
 
 # mas podemos guardar o endereço desse objeto em outra variável
@@ -228,7 +228,7 @@ contas1.saca(500)
 # print(contas1.codigo_banco())
 # 001
 
-# ja que ele é um código comun entre as contas, o código do bando não depende do objeto aqui
+# ja que ele é um código comun entre as contas, o código do banco não depende do objeto aqui
 # esses métodos que não dependem de um objeto (não tem o self), aqueles que não tem referência
 # são considerados métodos da classe, chamados de MÉTODOS ESTÁTICOS
 # para declarar eles, usamos @staticmethod

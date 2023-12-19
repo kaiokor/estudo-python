@@ -4,11 +4,9 @@
 
 class Programa:
      def __init__(self, nome, ano):
-                           # o title deixa todas as palavras com a primeira maiúscula 
           self._nome = nome.title()
           self.ano = ano
           self._likes = 0
-
 
      @property
      def likes(self):

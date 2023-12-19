@@ -16,7 +16,6 @@ class Cliente:
     @nome.setter
     def nome(self,nome):
         print("chamando setter nome()")
-                        # title deixa a primeira letra maiúscula
         self.__nome = nome
 
 cliente1 = Cliente('samara')
